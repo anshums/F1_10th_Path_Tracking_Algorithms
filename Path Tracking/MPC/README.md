@@ -12,12 +12,12 @@
 
 ## MPC Structure
 <p align = "center">
-<img src = "https://github.com/prateeks97/F1_10th_Path_Tracking_Algorithms/blob/master/Path%20Tracking/MPC/images/3-s2.0-B9780081017531000024-f02-02-9780081017531.jpg" width= "500" height="400">
+<img src = "https://github.com/prateeks97/F1_10th_Path_Tracking_Algorithms/blob/master/Path%20Tracking/MPC/images/3-s2.0-B9780081017531000024-f02-02-9780081017531.jpg" width= "500" height="300">
 </p>
 
 ## MPC Working
 <p align = "center">
-<img src = "https://github.com/prateeks97/F1_10th_Path_Tracking_Algorithms/blob/master/Path%20Tracking/MPC/images/maxresdefault.jpg" width= "500" height="400">
+<img src = "https://github.com/prateeks97/F1_10th_Path_Tracking_Algorithms/blob/master/Path%20Tracking/MPC/images/maxresdefault.jpg" width= "600" height="300">
 </p>
 
 ## MPC Implementation
