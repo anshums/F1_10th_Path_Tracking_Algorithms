@@ -1,24 +1,21 @@
 # Stanley Controller
+## Description
+ - The [Stanley](https://www.ri.cmu.edu/pub_files/2009/2/Automatic_Steering_Methods_for_Autonomous_Automobile_Path_Tracking.pdf) method is the path tracking approach used by Stanford University’s autonomous vehicle entry in the DARPA Grand Challenge, Stanley.
+ - The Stanley method is a nonlinear feedback function of the cross track error , measured from the center of the front axle to the nearest path point (cx, cy).
 <p align = "center">
 <img src = "https://github.com/prateeks97/F1_10th_Path_Tracking_Algorithms/blob/master/Path%20Tracking/Stanley/images/stanley.gif">
 </p>
 
-## Description
-
- - The [Stanley](https://www.ri.cmu.edu/pub_files/2009/2/Automatic_Steering_Methods_for_Autonomous_Automobile_Path_Tracking.pdf) method is the path tracking approach used by Stanford University’s autonomous vehicle entry in the DARPA Grand Challenge, Stanley.
- - The Stanley method is a nonlinear feedback function of the cross track error , measured from the center of the front axle to the nearest path point (cx, cy).
-
 ## Theory
-
-<p align = "center">
-<img src = "https://github.com/prateeks97/F1_10th_Path_Tracking_Algorithms/blob/master/Path%20Tracking/Stanley/images/stanley%20formula.JPG" height="500" width = "400">
-</p>
-
  - The controller uses geometric approach for path planning. This implies that the controller does not take dynamic factors into account.
  - In this the steering angle is fed as the sum of heading error and cross-track error.
  - Heading error is given by the difference of vehicle yaw and the heading of the path.
  - Cross-track error is given by the shortest distance between the front axle and the path.
  - The second term in the formula is tuned based on the values of constant 'k' and velocity (v(t)).
+
+<p align = "center">
+<img src = "https://github.com/prateeks97/F1_10th_Path_Tracking_Algorithms/blob/master/Path%20Tracking/Stanley/images/stanley%20formula.JPG" height="500" width = "400">
+</p>
 
 ## Steps to setup Environment and run the code
 
