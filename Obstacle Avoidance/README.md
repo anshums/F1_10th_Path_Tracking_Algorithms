@@ -28,4 +28,4 @@ For more details regarding Follow the gap method refer [this](https://f1tenth-co
  - Launch the rviz window and the simulator environment by- `roslaunch f1tenth_gym_ros gym_bridge_ros.launch​`
  - Launch the localization node that uses particle filter algorithm by- `roslaunch  f1tenth_gym_ros localization.launch`
  - We also provide the opponent vehicle a constant velocity to be able to run code on the ego vehicle.
- - Finally we navigate to the directory where the MPC controller python script is located and run it.​
+ - Finally we navigate to the directory where the follow the gap python script is located and run it.​
